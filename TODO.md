@@ -102,25 +102,25 @@
 
 ### 1.4 Database Schema
 
-- [ ] Design PostgreSQL schema
-  - [ ] Users table (mandala_id_did, identity_tier, is_diaspora, is_krama_mipil, joined_at)
-  - [ ] Kawenang table (holder_id, banjar_id, weights, granted_at, active_from, chain_anchor_hash)
-  - [ ] OrganizationalUnits (abstract: Banjar, Subak, DesaAdat, Kecamatan)
-  - [ ] SubakMembership (user_id, subak_id, role)
-  - [ ] Posts table (author_id, thread_id, content, location tags, calendar context)
-  - [ ] Threads table (category, title, created_at)
-  - [ ] Endorsements table (post_id, endorser_id, kawenang_weight_snapshot)
-  - [ ] MusyawarahMatters table (track, title, outcome, facilitator_id, timestamps)
-- [ ] Implement PostGIS extensions
-  - [ ] Banjar polygon geometries
-  - [ ] Subak polygon geometries (functional boundaries)
-  - [ ] Desa Adat boundaries
-  - [ ] Kabupaten boundaries (shared with environmental data layer)
-- [ ] Create migration scripts
-- [ ] Seed development data
-  - [ ] Test banjar entries
-  - [ ] Test subak entries
-  - [ ] Sample organizational hierarchy
+- [x] Design PostgreSQL schema
+  - [x] Users table (mandala_id_did, identity_tier, is_diaspora, is_krama_mipil, joined_at)
+  - [x] Kawenang table (holder_id, banjar_id, weights, granted_at, active_from, chain_anchor_hash)
+  - [x] OrganizationalUnits (abstract: Banjar, Subak, DesaAdat, Kecamatan)
+  - [x] SubakMembership (user_id, subak_id, role)
+  - [x] Posts table (author_id, thread_id, content, location tags, calendar context)
+  - [x] Threads table (category, title, created_at)
+  - [x] Endorsements table (post_id, endorser_id, kawenang_weight_snapshot)
+  - [x] MusyawarahMatters table (track, title, outcome, facilitator_id, timestamps)
+- [x] Implement PostGIS extensions
+  - [x] Banjar polygon geometries
+  - [x] Subak polygon geometries (functional boundaries)
+  - [x] Desa Adat boundaries
+  - [x] Kabupaten boundaries (shared with environmental data layer)
+- [x] Create migration scripts
+- [x] Seed development data
+  - [x] Test banjar entries
+  - [x] Test subak entries
+  - [x] Sample organizational hierarchy
 
 ### 1.5 Backend API (Rust/Axum)
 
