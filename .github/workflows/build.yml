@@ -27,7 +27,7 @@ jobs:
         run: cargo build --release --workspace
 
       - name: Upload backend artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: paruman-backend
           path: target/release/paruman-backend
@@ -54,7 +54,7 @@ jobs:
         working-directory: frontend
 
       - name: Upload frontend artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: paruman-frontend
           path: frontend/dist
@@ -77,7 +77,7 @@ jobs:
           cargo contract build --release
 
       - name: Upload contracts artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: paruman-contracts
           path: contracts/target/ink
