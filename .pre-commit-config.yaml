@@ -35,3 +35,35 @@ repos:
         pass_filenames: false
         stages: [commit]
         exclude: ^(frontend/node_modules|target)
+
+      - id: ink-contract-check
+        name: ink! Contract Check
+        entry: cargo contract check
+        language: system
+        files: ^contracts/.*\.rs$
+        pass_filenames: false
+        stages: [commit]
+
+      - id: ink-contract-build
+        name: ink! Contract Build
+        entry: cargo contract build
+        language: system
+        files: ^contracts/.*\.rs$
+        pass_filenames: false
+        stages: [commit]
+
+      - id: foundry-fmt
+        name: Foundry Format (Solidity)
+        entry: forge fmt
+        language: system
+        files: ^contracts/.*\.sol$
+        pass_filenames: false
+        stages: [commit]
+
+      - id: foundry-test
+        name: Foundry Test (Solidity)
+        entry: forge test
+        language: system
+        files: ^contracts/.*\.sol$
+        pass_filenames: false
+        stages: [commit]
