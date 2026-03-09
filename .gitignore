@@ -1,0 +1,47 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+.windsurf/
+
+# Rust / Cargo
+target/
+**/*.rs.bk
+
+# Node / SvelteKit
+node_modules/
+.svelte-kit/
+build/
+dist/
+
+# Python
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+
+# Env & secrets
+.env
+.env.*
+.env.local
+
+# Logs & coverage
+*.log
+logs/
+coverage/
+coverage.*
+.nyc_output/
+
+# Contracts / blockchain artifacts
+artifacts/
+cache/
+
+# Misc
+*.swp
+*.swo
+*.tmp
+TODO.md
+CLAUDE.md
