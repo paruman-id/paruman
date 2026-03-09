@@ -1,10 +1,10 @@
 # Paruman — Suara Bali
 
-> *Paruman adalah majelis tradisional Bali. Ini adalah bentuk digitalnya.*  
+> *Paruman adalah majelis tradisional Bali. Ini adalah bentuk digitalnya.*
 > *Paruman is the traditional Balinese community assembly. This is its digital form.*
 
-**Status:** Fase Desain / Design Phase  
-**Domain:** [paruman.id](https://paruman.id) *(coming soon)*  
+**Status:** Fase Desain / Design Phase
+**Domain:** [paruman.id](https://paruman.id) *(coming soon)*
 **Org:** [github.com/paruman-id](https://github.com/paruman-id)
 
 ---
@@ -41,8 +41,8 @@ Kalender Bali sebagai fondasi teknis dibangun di atas [`balinese-calendar`](http
 
 Arsitektur, keputusan desain, dan proses tata kelola Paruman semuanya terbuka untuk publik. Infrastruktur dan kode dibangun di sini, di depan umum, sejak hari pertama.
 
-Lihat [`ARCHITECTURE.md`](./ARCHITECTURE.md) untuk gambaran teknis lengkap.  
-Lihat [`docs/governance.md`](./docs/governance.md) untuk model tata kelola Musyawarah Mufakat.  
+Lihat [`ARCHITECTURE.md`](./ARCHITECTURE.md) untuk gambaran teknis lengkap.
+Lihat [`docs/governance.md`](./docs/governance.md) untuk model tata kelola Musyawarah Mufakat.
 Lihat [`Brand_Guidelines.md`](./Brand_Guidelines.md) untuk identitas visual dan prinsip desain.
 
 ---
@@ -79,8 +79,8 @@ The Balinese calendar foundation is built on [`balinese-calendar`](https://crate
 
 Paruman's architecture, design decisions, and governance process are all publicly visible. Infrastructure and code are built here, in the open, from day one.
 
-See [`ARCHITECTURE.md`](./ARCHITECTURE.md) for the full technical picture.  
-See [`docs/governance.md`](./docs/governance.md) for the Musyawarah Mufakat governance model.  
+See [`ARCHITECTURE.md`](./ARCHITECTURE.md) for the full technical picture.
+See [`docs/governance.md`](./docs/governance.md) for the Musyawarah Mufakat governance model.
 See [`Brand_Guidelines.md`](./Brand_Guidelines.md) for visual identity and design principles.
 
 ---

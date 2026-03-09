@@ -67,22 +67,22 @@ GitHub Discussions digunakan untuk percakapan yang lebih panjang — misalnya pe
 
 ## Prinsip Kontribusi / Contribution Principles
 
-**1. Konteks adat diutamakan.**  
+**1. Konteks adat diutamakan.**
 Jika ada tegangan antara kemudahan teknis dan kesesuaian dengan adat Bali, adat yang menang. Diskusikan dulu.
 
 *If there is tension between technical convenience and Balinese adat appropriateness, adat wins. Discuss first.*
 
-**2. Epistemic honesty.**  
+**2. Epistemic honesty.**
 Jangan overclaim. Ini berlaku untuk PR juga. Jika kamu tidak yakin apakah sesuatu sudah benar, katakan demikian.
 
 *Don't overclaim. This applies to PRs too. If you're not sure whether something is correct, say so.*
 
-**3. Aksesibilitas bahasa.**  
+**3. Aksesibilitas bahasa.**
 Dokumentasi teknis dalam Bahasa Inggris itu wajar. Dokumen yang menghadap komunitas harus selalu bilingual Bahasa Indonesia dan Inggris. Bahasa Bali disambut di mana pun relevan.
 
 *Technical documentation in English is fine. Community-facing documents must always be bilingual Indonesian and English. Balinese language is welcome wherever relevant.*
 
-**4. Tidak ada kontribusi yang terlalu kecil.**  
+**4. Tidak ada kontribusi yang terlalu kecil.**
 Memperbaiki satu kata dalam bahasa Bali di dokumen tata kelola bisa lebih berharga dari menambahkan ratusan baris kode.
 
 *Fixing one word in Balinese in the governance document can be more valuable than adding hundreds of lines of code.*
@@ -101,5 +101,5 @@ Dewan Pendiri bubar secara otomatis saat platform mencapai 500 Krama Mipil aktif
 
 ---
 
-*Satu pertanyaan yang belum terjawab? Buka Issue. Kami membangun ini bersama.*  
+*Satu pertanyaan yang belum terjawab? Buka Issue. Kami membangun ini bersama.*
 *One question unanswered? Open an Issue. We're building this together.*

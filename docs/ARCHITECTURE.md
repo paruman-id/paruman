@@ -2,8 +2,8 @@
 
 > *Paruman: the traditional Balinese community assembly. Digital infrastructure for the same purpose.*
 
-**Status:** Design Phase — Phase 0 Complete  
-**Last Updated:** 2026-03-09  
+**Status:** Design Phase — Phase 0 Complete
+**Last Updated:** 2026-03-09
 **Authors:** Paruman Core Team
 
 ---
@@ -971,5 +971,5 @@ A community position document backed by mufakat carries more weight than one bac
 
 ---
 
-**Document status:** Living document. Updated as architecture evolves.  
+**Document status:** Living document. Updated as architecture evolves.
 **Next review:** After MandalaChain founder conversation and Phase 1 technical spike.

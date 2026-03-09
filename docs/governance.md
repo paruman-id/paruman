@@ -1,6 +1,6 @@
 # Tata Kelola Paruman — Musyawarah Mufakat
 
-> *"Keputusan bukan hasil hitungan kepala, melainkan buah dari musyawarah yang bulat."*  
+> *"Keputusan bukan hasil hitungan kepala, melainkan buah dari musyawarah yang bulat."*
 > *"Decisions are not the result of counting heads, but the fruit of unanimous deliberation."*
 
 **Dokumen ini** menjelaskan bagaimana komunitas Paruman membuat keputusan. Model ini tidak dirancang dari nol — model ini adalah implementasi digital dari proses Musyawarah Mufakat yang sudah lama mengatur kehidupan komunitas Bali.
@@ -234,5 +234,5 @@ Mekanisme tata kelola diimplementasikan sebagai kontrak **ink!** (WASM) di [Mand
 
 ---
 
-*Dokumen ini adalah bagian dari [`ARCHITECTURE.md`](../ARCHITECTURE.md) yang dipisahkan untuk keterbacaan.*  
+*Dokumen ini adalah bagian dari [`ARCHITECTURE.md`](../ARCHITECTURE.md) yang dipisahkan untuk keterbacaan.*
 *This document is extracted from [`ARCHITECTURE.md`](../ARCHITECTURE.md) for readability.*

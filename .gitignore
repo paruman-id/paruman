@@ -45,3 +45,8 @@ cache/
 *.tmp
 TODO.md
 CLAUDE.md
+
+
+# Added by cargo
+
+/target

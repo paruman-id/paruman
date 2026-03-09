@@ -783,6 +783,6 @@ Community position documents are exported as PDF. Print styles apply:
 
 *Tri Datu — tiga warna, satu benang. Three colors, one thread.*
 
-**Last Updated:** 2026-03-09  
-**Version:** 1.0  
+**Last Updated:** 2026-03-09
+**Version:** 1.0
 **Maintained by:** Paruman Core Team
