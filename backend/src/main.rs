@@ -1,20 +1,19 @@
-mod config;
 mod blockchain;
+mod config;
 mod identity;
 
 use axum::{
     routing::{get, post},
-    Router,
-    Json,
+    Json, Router,
 };
-use std::net::SocketAddr;
-use tracing_subscriber;
 use config::Config;
 use identity::{IdentityVerificationRequest, IdentityVerificationResponse};
+use std::net::SocketAddr;
+use tracing_subscriber;
 
 #[tokio::main]
 async fn main() {
-    dotenv::dotenv().ok();
+    dotenvy::dotenv().ok();
     tracing_subscriber::fmt::init();
 
     let config = Config::from_env();
@@ -27,21 +26,17 @@ async fn main() {
         .route("/chain/status", get(blockchain::chain_status))
         .route("/identity/verify", post(identity_verify));
 
-    let addr = SocketAddr::from(([
-        config.server.host.parse::<u8>().unwrap_or(127),
-        0,
-        0,
-        1,
-    ], config.server.port));
+    let addr = SocketAddr::from((
+        [config.server.host.parse::<u8>().unwrap_or(127), 0, 0, 1],
+        config.server.port,
+    ));
     tracing::info!("Listening on {}", addr);
 
     let listener = tokio::net::TcpListener::bind(addr)
         .await
         .expect("Failed to bind to address");
 
-    axum::serve(listener, app)
-        .await
-        .expect("Server error");
+    axum::serve(listener, app).await.expect("Server error");
 }
 
 async fn health_check() -> &'static str {

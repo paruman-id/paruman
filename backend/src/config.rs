@@ -51,28 +51,22 @@ impl Config {
                     .expect("SERVER_PORT must be a valid u16"),
             },
             database: DatabaseConfig {
-                url: env::var("DATABASE_URL")
-                    .expect("DATABASE_URL must be set"),
+                url: env::var("DATABASE_URL").expect("DATABASE_URL must be set"),
             },
             redis: RedisConfig {
-                url: env::var("REDIS_URL")
-                    .unwrap_or_else(|_| "redis://localhost:6379".to_string()),
+                url: env::var("REDIS_URL").unwrap_or_else(|_| "redis://localhost:6379".to_string()),
             },
             s3: S3Config {
                 endpoint: env::var("S3_ENDPOINT")
                     .unwrap_or_else(|_| "http://localhost:9000".to_string()),
-                access_key: env::var("S3_ACCESS_KEY")
-                    .unwrap_or_else(|_| "minioadmin".to_string()),
-                secret_key: env::var("S3_SECRET_KEY")
-                    .unwrap_or_else(|_| "minioadmin".to_string()),
-                bucket: env::var("S3_BUCKET")
-                    .unwrap_or_else(|_| "paruman".to_string()),
+                access_key: env::var("S3_ACCESS_KEY").unwrap_or_else(|_| "minioadmin".to_string()),
+                secret_key: env::var("S3_SECRET_KEY").unwrap_or_else(|_| "minioadmin".to_string()),
+                bucket: env::var("S3_BUCKET").unwrap_or_else(|_| "paruman".to_string()),
             },
             mandalachain: MandalachainConfig {
                 rpc_url: env::var("MANDALACHAIN_RPC_URL")
                     .unwrap_or_else(|_| "wss://rpc1.paseo.mandalachain.io".to_string()),
-                chain_id: env::var("MANDALACHAIN_CHAIN_ID")
-                    .unwrap_or_else(|_| "paseo".to_string()),
+                chain_id: env::var("MANDALACHAIN_CHAIN_ID").unwrap_or_else(|_| "paseo".to_string()),
             },
         }
     }
