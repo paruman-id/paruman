@@ -53,6 +53,8 @@ Untuk fase desain ini, PR diterima untuk:
 - Klarifikasi yang meningkatkan keterbacaan / clarifications that improve readability
 - Penambahan konteks adat yang hilang atau kurang tepat / missing or incorrect adat context
 
+**Catatan tooling frontend:** gunakan `pnpm` untuk instalasi dan perintah frontend (lint/build/test). Jalankan `pnpm install` di folder `frontend/` sebelum menjalankan `pnpm run check` atau perintah lainnya.
+
 Setiap perubahan substantif pada arsitektur atau model tata kelola harus dimulai sebagai Issue terlebih dahulu.
 
 *Every substantive change to architecture or governance model must start as an Issue first.*

@@ -29,7 +29,7 @@ repos:
 
       - id: svelte-check
         name: Svelte Check
-        entry: npm run check
+        entry: pnpm run check
         language: system
         types: [svelte, typescript, javascript]
         pass_filenames: false
