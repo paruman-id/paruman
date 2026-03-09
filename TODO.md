@@ -49,51 +49,51 @@
 
 ### 1.2 Identity Layer — Mandala ID Integration
 
-- [ ] **CRITICAL: Founder conversation with MandalaChain team**
-  - [ ] Present mobile onboarding gap (no seed phrase path)
-  - [ ] Request embedded wallet roadmap discussion
-  - [ ] Propose Paruman as flagship use case
-  - [ ] Document outcome and integration path
-- [ ] Research Mandala ID / IDCHAIN documentation
-  - [ ] W3C DID implementation details
-  - [ ] KILT DIP pallet integration
-  - [ ] Verification flow for KK (Kartu Keluarga)
-  - [ ] Banjar attestation mechanism
-- [ ] Implement authentication service
-  - [ ] DID verification endpoint
-  - [ ] Session management with `pallet-proxy` for daily-use keys
-  - [ ] Identity tier detection (Tier 0, 1, 1D, 2, 3)
-- [ ] Build identity verification flows
-  - [ ] Tier 1: Bali residency/origin proof
-  - [ ] Tier 1D: Diaspora heritage proof + explicit marking
-  - [ ] Tier 2: Krama Mipil (KK verification + banjar attestation)
-  - [ ] Tier 3: Wakil Adat (role verification)
-- [ ] Implement 35-day Kawenang hold mechanism
-  - [ ] Track verification timestamp
-  - [ ] Calculate activation date (Gregorian + 1 Pawukon cycle)
-  - [ ] Prevent governance actions before activation
+- [x] **CRITICAL: Founder conversation with MandalaChain team**
+  - [x] Present mobile onboarding gap (no seed phrase path)
+  - [x] Request embedded wallet roadmap discussion
+  - [x] Propose Paruman as flagship use case
+  - [x] Document outcome and integration path
+- [x] Research Mandala ID / IDCHAIN documentation
+  - [x] W3C DID implementation details
+  - [x] KILT DIP pallet integration
+  - [x] Verification flow for KK (Kartu Keluarga)
+  - [x] Banjar attestation mechanism
+- [x] Implement authentication service
+  - [x] DID verification endpoint
+  - [x] Session management with `pallet-proxy` for daily-use keys
+  - [x] Identity tier detection (Tier 0, 1, 1D, 2, 3)
+- [x] Build identity verification flows
+  - [x] Tier 1: Bali residency/origin proof
+  - [x] Tier 1D: Diaspora heritage proof + explicit marking
+  - [x] Tier 2: Krama Mipil (KK verification + banjar attestation)
+  - [x] Tier 3: Wakil Adat (role verification)
+- [x] Implement 35-day Kawenang hold mechanism
+  - [x] Track verification timestamp
+  - [x] Calculate activation date (Gregorian + 1 Pawukon cycle)
+  - [x] Prevent governance actions before activation
 
 ### 1.3 Smart Contracts (ink!)
 
-- [ ] Set up ink! development environment
-  - [ ] cargo-contract installation
-  - [ ] Local substrate node for testing
-  - [ ] Paseo testnet deployment scripts
-- [ ] Kawenang contract
-  - [ ] Non-transferable governance standing token
-  - [ ] Base weight: 1.0 for new Krama Mipil
-  - [ ] Seniority accrual logic (6mo→1.2, 1yr→1.5, 2yr→2.0, 5yr→2.5 cap)
-  - [ ] Role modifiers (Kelian +0.5, Moderator +0.3, Pekaseh +0.3, Wakil Adat +0.5)
-  - [ ] Diaspora weight: 0.5× base, no seniority accrual
-  - [ ] 35-day activation hold
-  - [ ] Banjar-scoped grants
-  - [ ] Query functions for effective weight calculation
-- [ ] Musyawarah contract (basic)
-  - [ ] Matter creation (title, track, banjar_id, raised_by)
-  - [ ] Deliberation window tracking
-  - [ ] Outcome recording (mufakat / ditunda / pemungutan_suara)
-  - [ ] Legitimacy level storage
-  - [ ] Chain anchor hash storage
+- [x] Set up ink! development environment
+  - [x] cargo-contract installation
+  - [x] Local substrate node for testing
+  - [x] Paseo testnet deployment scripts
+- [x] Kawenang contract
+  - [x] Non-transferable governance standing token
+  - [x] Base weight: 1.0 for new Krama Mipil
+  - [x] Seniority accrual logic (6mo→1.2, 1yr→1.5, 2yr→2.0, 5yr→2.5 cap)
+  - [x] Role modifiers (Kelian +0.5, Moderator +0.3, Pekaseh +0.3, Wakil Adat +0.5)
+  - [x] Diaspora weight: 0.5× base, no seniority accrual
+  - [x] 35-day activation hold
+  - [x] Banjar-scoped grants
+  - [x] Query functions for effective weight calculation
+- [x] Musyawarah contract (basic)
+  - [x] Matter creation (title, track, banjar_id, raised_by)
+  - [x] Deliberation window tracking
+  - [x] Outcome recording (mufakat / ditunda / pemungutan_suara)
+  - [x] Legitimacy level storage
+  - [x] Chain anchor hash storage
 - [ ] Deploy contracts to Paseo testnet
   - [ ] Test with multiple accounts
   - [ ] Verify weight calculations
